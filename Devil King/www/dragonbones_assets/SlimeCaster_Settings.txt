@@ -1,0 +1,82 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- SlimeCaster -- Enemy Settings (copy any enemy as a base)
+---------------------
+<DragonBone Replace Sprite>
+<DragonBone Settings>
+Battler: SlimeCaster
+Scalex: 1.0
+Scaley: 1.0
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Attack
+Ani Swing: Attack
+Ani Thrust: Attack
+Ani Missile: Attack
+Ani Skill: Cast
+Ani Chant: Cast
+Ani Spell: Attack
+Ani Item: Cast
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Idle
+Ani Abnormal: Idle
+Ani Sleep: Idle
+Ani Dying: Idle
+Ani Dead: Dead
+Ani Victory: Idle
+Ani Escape: Idle
+
+Replace Sprite
+</DragonBone Settings>
+
+<AI Level: 100>
+<AI Priority>
+HP% param <= 50%: Slime Heal, Lowest HP%
+</AI Priority>
+---------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- SlimeCaster -- Attack #1 Settings (copy '#16 Ranged Attack' as a base)
+(set this as default action)
+---------------------
+<Target Action>
+move user: forward, 48, 12
+wait for movement
+motion missile: user
+wait: 29
+action animation
+shake screen: 3, 9, 5
+action effect
+death break
+wait: 10
+</target Action>
+---------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- SlimeCaster -- Attack #2 Settings (copy '#08 Heal' as a base)
+(Name this "Slime Heal" so it works with the enemy AI settings)
+---------------------
+<setup action>
+clear battle log
+display action
+</setup action>
+
+
+
+<target Action>
+motion chant: user
+wait: 20
+action effect
+action animation
+wait: 40
+motion standby: user
+wait for animation
+</target Action>
+
+<finish action>
+perform finish
+face user: forward
+clear battle log
+</finish action>
+---------------------

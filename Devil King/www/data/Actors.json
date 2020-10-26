@@ -1,0 +1,8 @@
+[
+null,
+{"id":1,"battlerName":"Shadow_Female_1","characterIndex":0,"characterName":"Shadow_Female_1","classId":6,"equips":[1,0,2,3,0],"faceIndex":0,"faceName":"Shadow_Female_1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Shadow","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Actor3_7","characterIndex":6,"characterName":"Actor3","classId":4,"equips":[2,1,47,4,0],"faceIndex":6,"faceName":"Actor3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Starface","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"Chicken_Battler","characterIndex":2,"characterName":"Nature","classId":2,"equips":[8,0,50,20,4],"faceIndex":2,"faceName":"Nature","traits":[],"initialLevel":1,"maxLevel":99,"name":"Sturme","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"Caregiver_Battler","characterIndex":0,"characterName":"Caregiver_Walk","classId":3,"equips":[8,39,66,21,4],"faceIndex":0,"faceName":"Caregiver","traits":[],"initialLevel":1,"maxLevel":99,"name":"Caregiver","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+]

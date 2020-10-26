@@ -1,0 +1,58 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- SlimeDefender -- Enemy Settings (copy any enemy as a base)
+---------------------
+<Attack animation: 7>
+<DragonBone Settings>
+Battler: SlimeDefender
+Scalex: 1.0
+Scaley: 1.0
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Attack
+Ani Swing: Attack
+Ani Thrust: Attack
+Ani Missile: Attack
+Ani Skill: Attack
+Ani Chant: Attack
+Ani Spell: Attack
+Ani Item: Attack
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Idle
+Ani Abnormal: Idle
+Ani Sleep: Idle
+Ani Dying: Idle
+Ani Dead: Dead
+Ani Victory: Idle
+Ani Escape: Idle
+
+Replace Sprite
+</DragonBone Settings>
+<AI Level: 100>
+<AI Priority>
+Always: Attack Chain
+
+</AI Priority>
+---------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- SlimeDefender -- Attack Settings (copy '#20 Attack' as a base)
+(name it Attack Chain)
+---------------------
+<Target Action>
+motion evade: user
+move user: targets, front, 22
+wait for movement
+move user: BACKWARD, 15, 5
+motion thrust: user
+wait: 31
+se: Hammer
+wait: 11
+action animation
+wait: 10
+shake screen: 3, 9, 5
+action effect
+death break
+</target Action>
+---------------------

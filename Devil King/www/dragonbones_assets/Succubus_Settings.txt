@@ -1,0 +1,23 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- Succubus-- Enemy Settings (copy any enemy as a base)
+---------------------
+<Attack animation: 7>
+<DragonBone Replace Sprite>
+<DragonBone Settings>
+Battler: Succubus
+Scalex: -1.0
+Scaley: 1.0
+
+Ani Attack: Attack
+Ani Walk: Idle
+Ani Damage: Damage
+Ani Skill: Skill
+Ani Spell: Skill
+Ani Missile: Skill
+Ani Thrust: Attack
+Ani Swing: Attack
+Ani Item: Skill
+Ani Victory: Attack
+
+Replace Sprite
+</DragonBone Settings>
